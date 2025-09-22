@@ -1,6 +1,37 @@
 # Dmart-Sales-Analysis
-The Dmart Sales Analysis Project uses Power BI to analyze sales performance across products, customers, stores, and regions. The report provides interactive dashboards with KPIs, visual analysis, and drilldowns to track sales trends, identify top-performing categories, and evaluate regional performance. A star schema data model connects Sales with Product, Customer, Store, and Date dimensions, enabling clear insights for better business decisions.
+## Project objective:
+The Dmart Sales Analysis project aims to explore and analyze sales data to identify trends, customer preferences, and product performance, It focuses on transforming raw sales data into meaningful insights through data cleaning, aggregation, and visualization, Using Power BI, the project creates interactive dashboards to help stakeholders track revenue, sales by category, and regional performance, The insights generated support data-driven decisions to improve sales strategy, inventory management, and overall business performance.
 
+## Dataset used
+- <a href ="https://github.com/jayesh190704/Dmart-Sales-Analysis/blob/main/Dmart.csv"> Dataset</a>
+
+## 📌 Key KPIs
+•	Total Sales: $16.95M
+•	Sales Year-to-Date (YTD): $5.70M
+•	Sales Quarter-to-Date (QTD): ₹1.49M
+•	Sales Month-to-Date (MTD): ₹479.12K
+•	Total Orders: 25K
+•	Total Customers: 24.81K
+•	Cancelled Orders: 1,784
+•	Total Shipping Cost: $919.98K
+•	Average Rating: 3.01
+•	Average Number of Clicks: 50
+•	Average Time Spent: 10.15
+
+
+- Dashboard Interaction <a href=" https://github.com/jayesh190704/Dmart-Sales-Analysis/blob/main/Dmart%20Analysis%20project.pbix"> view Dashboard </a>
+
+## 🛠 Project Process
+
+Data Collection & Cleaning – Prepared sales, order, and customer data.
+Data Modeling – Built star schema with relationships.
+KPI Development – Defined sales, customer, and cost metrics.
+Dashboard Design – Interactive Power BI dashboard with cards & visuals.
+Insights – Strong sales, but high shipping cost, cancellations, and low rating need improvement.
+
+
+## Dashbaord  
+<img width="1856" height="779" alt="Dmart Analysis dashboard" src ="https://github.com/jayesh190704/Dmart-Sales-Analysis/blob/main/Snapshot%20of%20the%20Dashboard.png" />
 
 # 🔑 Key Insights & Features
 •	Top Categories: FMCG and Electronics generate the highest sales and profit.
@@ -13,6 +44,7 @@ The Dmart Sales Analysis Project uses Power BI to analyze sales performance acro
 •	Decomposition Tree: Drill-down from Region → Store → Category → Product.
 •	Visual Variety: Bar, Pie, Map, Funnel, Cards, and Network-style diagrams for deep analysis.
 
+
 # 🌟 Why This Project Stands Out
 •	End-to-End BI Solution – Covers the complete cycle from data modeling (Star Schema) to advanced visualization and insights.
 •	Multi-Page Interactive Dashboards – Four well-structured pages (KPIs, Sales Analysis, Drilldowns, Data Model) for holistic reporting.
@@ -21,9 +53,8 @@ The Dmart Sales Analysis Project uses Power BI to analyze sales performance acro
 •	Professional Design – Clean layout, varied visuals (maps, funnels, decomposition tree, cards), and user-friendly interactivity.
 •	Scalable Approach – Built on a flexible star schema, making it easy to expand with new data (e.g., new stores, products, or time periods).
 
-# Repository Structure
-•	Data:- <a href "https://github.com/jayesh190704/Dmart-Sales-Analysis/blob/main/Dmart.csv" > DATA </a>
-•	Dashboard:-<a href "https://github.com/jayesh190704/Dmart-Sales-Analysis/blob/main/Dmart%20Analysis%20project.pbix" > DashBoard </a>
-•	Images:-<a href "https://github.com/jayesh190704/Dmart-Sales-Analysis/blob/main/Snapshot%20of%20the%20Dashboard.png> Image </a>
-
+# Conclusion:
+The project successfully analyzed and visualized data, providing clear insights to support informed business decisions. Key KPIs and trends were identified, demonstrating the effectiveness of the implemented methods.
+#  Future Scope:
+The project can be expanded by integrating real-time data, advanced analytics, and predictive modeling to further enhance decision-making and efficiency.
 
